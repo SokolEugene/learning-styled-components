@@ -1,6 +1,6 @@
 import "./App.css";
 import styled from "styled-components";
-import { Btn, BtnWrap, SuperBtn } from "./components/Button.styled";
+import { Btn, BtnBox } from "./components/Button.styled";
 import { ImageComponent } from "./components/Image.styled";
 import { Title } from "./components/Title.styled";
 import { Text } from "./components/Text.styled";
@@ -14,10 +14,10 @@ function App() {
           <ImageComponent imageUrl={Image} />
           <Title>Sahara</Title>
           <Text>The largest hot desert on Earth</Text>
-          <BtnWrap>
-            <Btn>See more</Btn>
-            <SuperBtn>Save</SuperBtn>
-          </BtnWrap>
+          <BtnBox>
+            <Btn primary>See more</Btn>
+            <Btn outlined>Save</Btn>
+          </BtnBox>
         </Content>
       </Wrapper>
     </div>
