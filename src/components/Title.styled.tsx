@@ -6,5 +6,4 @@ export const Title = styled.p`
   font-weight: 700;
   text-align: left;
   margin: 0 5px 0 5px;
-  //margin: 10px 5px 10px 5px;
 `;
